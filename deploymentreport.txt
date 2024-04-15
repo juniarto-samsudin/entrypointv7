@@ -1,0 +1,46 @@
+EP:  0x5FbDB2315678afecb367f032d93F642f64180aa3
+AF:  0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+PM:  0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+SA:  0xCafac3dD18aC6c6e92c921884f9E4176737C052c
+
+STACKUP BUNDLER                                PIMLICO    
+eth_sendUserOperation                         sendUserOperation
+eth_getUserOperationReceipt                   getUserOperationReceipt 
+eth_getUserOperationByHash                    getUserOperationByHash
+eth_supportedEntryPoints                      supportedEntryPoints
+eth_chainId                                   NONE
+NONE                                          estimateUserOperationGas
+NONE                                          waitForUserOperationReceipt
+
+OLD
+EP = 0xA93a94f983A2E79d861E55124f96454A4E6411eA
+PM = 0xf8e99BB0e456A26E17A01f71b285E7eeA2a03651 
+AF1 =  0xbcAf4EC94379639b868B3E326389bbee4B627C50   --> WORKING
+AF2 =  0xF19109640f8B1Ba06639fbFa72703A93DE5Fc529
+
+OLD2
+EP = 0x2478C8d0cb0344d0561d881790Ab06561816CeA1
+PM = 0xb40212C952e29C0607424c083E8229D09BEe7887
+AF = 0x12D465819D1Ec853F436866b4d5Fd6D3221C4222
+
+OLD3
+EP = 0x66D84A625A7d435D39DC549F91B5a64b534438Dc 
+PM = 0x622025aE54448189192a9E0E8bb67dfb4B11E9fe
+AF = 0xCDC384a4D4fE79527E56c8222d3ef2b2679F0f82
+
+OLD4
+EP = 0xb7bBe14B0a8d44e3b99fF6fe2e495f4A47De22E7
+PM = 0xfF68EAe37A5533F39718e362CC6812912B693039
+AF = 0x9F5b67550157FdfF40d36c837BbC50Ccb26cb841
+
+NEW
+EP = 0xDc7b5413dDfcb15C5DB98ef384fCdBDa85A6f25F
+PM = 0x799524a9aaeb447bFb5BE5f42BBb2802b52Ac249
+AF = 0x7f3ebA79f2597468Bb4613bfEE3f0caB7Db6CfA7
+
+NEW2 MUMBAI
+EP = 
+PM = 
+AF = 
+
+

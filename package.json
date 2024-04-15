@@ -1,0 +1,27 @@
+{
+  "name": "hardhat-js-alchemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.1"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.6.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@openzeppelin/contracts": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "permissionless": "^0.1.12",
+    "viem": "^2.9.9",
+    "web3": "^1.10.4"
+  }
+}
